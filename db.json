@@ -1,0 +1,979 @@
+{
+  "usuarios": [
+    {
+      "id": "1cda",
+      "nombre": "daniel",
+      "password": "gaxd",
+      "saldo": 250
+    },
+    {
+      "id": "2d2f",
+      "nombre": "mauricio",
+      "password": "12345",
+      "saldo": 999990
+    },
+    {
+      "id": "3asa",
+      "nombre": "jorge",
+      "password": "tuterror",
+      "saldo": 0
+    },
+    {
+      "id": "4ag7",
+      "nombre": "victor",
+      "password": "12345",
+      "saldo": 0
+    },
+    {
+      "id": "dd94",
+      "nombre": "pedro",
+      "password": "ga",
+      "saldo": 0
+    },
+    {
+      "id": "6702",
+      "nombre": "gordo",
+      "password": "12345",
+      "saldo": 25
+    },
+    {
+      "id": "fa1b",
+      "nombre": "Hola123",
+      "password": "1234",
+      "saldo": 8900
+    },
+    {
+      "id": "0cda",
+      "nombre": "beba",
+      "password": "123456789",
+      "saldo": 45
+    }
+  ],
+  "apuestas": [
+    {
+      "id": "3145",
+      "usuario": "gordo",
+      "equipo1": {
+        "id": "73",
+        "nombre": "Hoffenheim",
+        "imagen": "/img/hoffenheim.png",
+        "liga": "Bundesliga",
+        "url": "/equipo/hoffenheim.html"
+      },
+      "equipo2": {
+        "id": "68",
+        "nombre": "Wolfsburg",
+        "imagen": "/img/wolfsburg.png",
+        "liga": "Bundesliga",
+        "url": "/equipo/wolfsburg.html"
+      },
+      "opciones": {
+        "seleccionGanador": "empate",
+        "dobleOportunidad": "",
+        "ambosMarcan": "",
+        "goles": "",
+        "corners": "",
+        "tarjetas": "",
+        "monto": "5"
+      },
+      "monto": "5",
+      "fechaHoraApuesta": "2025-07-20T21:43:08.614Z"
+    },
+    {
+      "id": "a773",
+      "usuario": "gordo",
+      "equipo1": {
+        "id": "53",
+        "nombre": "Lazio",
+        "imagen": "/img/lazio.png",
+        "liga": "Serie A",
+        "url": "/equipo/lazio.html"
+      },
+      "equipo2": {
+        "id": "49",
+        "nombre": "Torino",
+        "imagen": "/img/torino.png",
+        "liga": "Serie A",
+        "url": "/equipo/torino.html"
+      },
+      "opciones": {
+        "seleccionGanador": "",
+        "dobleOportunidad": "",
+        "ambosMarcan": "",
+        "goles": "",
+        "corners": "",
+        "tarjetas": "+4.5",
+        "monto": "10"
+      },
+      "monto": "10",
+      "fechaHoraApuesta": "2025-07-20T21:47:13.537Z"
+    },
+    {
+      "id": "b835",
+      "usuario": "gordo",
+      "equipo1": {
+        "id": "24",
+        "nombre": "Brentford",
+        "imagen": "/img/brentford.png",
+        "liga": "Premier League",
+        "url": "/equipo/brentford.html"
+      },
+      "equipo2": {
+        "id": "31",
+        "nombre": "Luton Town",
+        "imagen": "/img/luton-town.png",
+        "liga": "Premier League",
+        "url": "/equipo/luton-town.html"
+      },
+      "opciones": {
+        "seleccionGanador": "",
+        "dobleOportunidad": "",
+        "ambosMarcan": "",
+        "goles": "",
+        "corners": "-10.5",
+        "tarjetas": "",
+        "monto": "10"
+      },
+      "monto": "10",
+      "fechaHoraApuesta": "2025-07-20T21:55:19.445Z"
+    },
+    {
+      "id": "885e",
+      "usuario": "beba",
+      "equipo1": {
+        "id": "4",
+        "nombre": "Al Nassr",
+        "imagen": "/img/al-nassr.png",
+        "liga": "Liga Profesional",
+        "url": "/equipo/al-nassr.html"
+      },
+      "equipo2": {
+        "id": "5",
+        "nombre": "Al Hilal",
+        "imagen": "/img/al-hilal.png",
+        "liga": "Liga Profesional",
+        "url": "/equipo/al-hilal.html"
+      },
+      "opciones": {
+        "seleccionGanador": "",
+        "dobleOportunidad": "X2",
+        "ambosMarcan": "",
+        "goles": "",
+        "corners": "",
+        "tarjetas": "+4.5",
+        "monto": "5"
+      },
+      "monto": "5",
+      "fechaHoraApuesta": "2025-07-20T22:49:10.048Z"
+    },
+    {
+      "id": "d10f",
+      "usuario": "beba",
+      "equipo1": {
+        "id": "64",
+        "nombre": "UTC Cajamarca",
+        "imagen": "/img/utc.png",
+        "liga": "Liga 1",
+        "url": "/equipo/utc.html"
+      },
+      "equipo2": {
+        "id": "60",
+        "nombre": "Cusco FC",
+        "imagen": "/img/cusco.png",
+        "liga": "Liga 1",
+        "url": "/equipo/cusco.html"
+      },
+      "opciones": {
+        "seleccionGanador": "visita",
+        "dobleOportunidad": "",
+        "ambosMarcan": "",
+        "goles": "",
+        "corners": "",
+        "tarjetas": "",
+        "monto": "20"
+      },
+      "monto": "20",
+      "fechaHoraApuesta": "2025-07-20T23:01:37.927Z"
+    },
+    {
+      "id": "072a",
+      "usuario": "beba",
+      "equipo1": {
+        "id": "29",
+        "nombre": "Bournemouth",
+        "imagen": "/img/bournemouth.png",
+        "liga": "Premier League",
+        "url": "/equipo/bournemouth.html"
+      },
+      "equipo2": {
+        "id": "22",
+        "nombre": "West Ham United",
+        "imagen": "/img/west-ham.png",
+        "liga": "Premier League",
+        "url": "/equipo/west-ham.html"
+      },
+      "opciones": {
+        "seleccionGanador": "empate",
+        "dobleOportunidad": "",
+        "ambosMarcan": "",
+        "goles": "",
+        "corners": "",
+        "tarjetas": "",
+        "monto": "5"
+      },
+      "monto": "5",
+      "fechaHoraApuesta": "2025-07-20T23:02:13.381Z"
+    },
+    {
+      "id": "341a",
+      "usuario": "daniel",
+      "equipo1": {
+        "id": "29",
+        "nombre": "Bournemouth",
+        "imagen": "/img/bournemouth.png",
+        "liga": "Premier League",
+        "url": "/equipo/bournemouth.html"
+      },
+      "equipo2": {
+        "id": "2",
+        "nombre": "Arsenal",
+        "imagen": "/img/arsenal.png",
+        "liga": "Premier League",
+        "url": "/equipo/arsenal.html"
+      },
+      "opciones": {
+        "seleccionGanador": "empate",
+        "dobleOportunidad": "",
+        "ambosMarcan": "",
+        "goles": "",
+        "corners": "",
+        "tarjetas": "",
+        "monto": "30"
+      },
+      "monto": "30",
+      "fechaHoraApuesta": "2025-07-20T23:35:27.249Z"
+    },
+    {
+      "id": "076d",
+      "usuario": "daniel",
+      "equipo1": {
+        "id": "65",
+        "nombre": "Melgar",
+        "imagen": "/img/melgar.webp",
+        "liga": "Liga 1",
+        "url": "/equipo/melgar.html"
+      },
+      "equipo2": {
+        "id": "59",
+        "nombre": "Chankas",
+        "imagen": "/img/chankas.png",
+        "liga": "Liga 1",
+        "url": "/equipo/chankas.html"
+      },
+      "opciones": {
+        "seleccionGanador": "",
+        "dobleOportunidad": "",
+        "ambosMarcan": "si",
+        "goles": "",
+        "corners": "",
+        "tarjetas": "",
+        "monto": "50"
+      },
+      "monto": "50",
+      "fechaHoraApuesta": "2025-07-20T23:54:45.074Z"
+    },
+    {
+      "id": "9719",
+      "usuario": "daniel",
+      "equipo1": {
+        "id": "33",
+        "nombre": "Real Betis",
+        "imagen": "/img/real-betis.png",
+        "liga": "La Liga",
+        "url": "/equipo/real-betis.html"
+      },
+      "equipo2": {
+        "id": "47",
+        "nombre": "Villarreal CF",
+        "imagen": "/img/villarreal.png",
+        "liga": "La Liga",
+        "url": "/equipo/villarreal.html"
+      },
+      "opciones": {
+        "seleccionGanador": "",
+        "dobleOportunidad": "12",
+        "ambosMarcan": "",
+        "goles": "",
+        "corners": "-10.5",
+        "tarjetas": "",
+        "monto": "20"
+      },
+      "monto": "20",
+      "fechaHoraApuesta": "2025-07-20T23:56:38.443Z"
+    },
+    {
+      "id": "261c",
+      "usuario": "Hola123",
+      "equipo1": {
+        "id": "9",
+        "nombre": "Sporting Cristal",
+        "imagen": "/img/sporting-cristal.png",
+        "liga": "Liga 1",
+        "url": "/equipo/sporting-cristal.html"
+      },
+      "equipo2": {
+        "id": "7",
+        "nombre": "Universitario",
+        "imagen": "/img/u.png",
+        "liga": "Liga 1",
+        "url": "/equipo/universitario.html"
+      },
+      "opciones": {
+        "seleccionGanador": "visita",
+        "dobleOportunidad": "1X",
+        "ambosMarcan": "si",
+        "goles": "-3.5",
+        "corners": "-10.5",
+        "tarjetas": "-4.5",
+        "monto": "100"
+      },
+      "monto": "100",
+      "fechaHoraApuesta": "2025-07-21T01:03:40.521Z"
+    }
+  ],
+  "equipos": [
+    {
+      "id": "1",
+      "nombre": "Barcelona",
+      "imagen": "/img/barcelona.png",
+      "liga": "La Liga",
+      "url": "/equipo/barcelona.html"
+    },
+    {
+      "id": "2",
+      "nombre": "Arsenal",
+      "imagen": "/img/arsenal.png",
+      "liga": "Premier League",
+      "url": "/equipo/arsenal.html"
+    },
+    {
+      "id": "3",
+      "nombre": "Inter Milan",
+      "imagen": "/img/inter-milan.png",
+      "liga": "Serie A",
+      "url": "/equipo/inter-milan.html"
+    },
+    {
+      "id": "4",
+      "nombre": "Al Nassr",
+      "imagen": "/img/al-nassr.png",
+      "liga": "Liga Profesional",
+      "url": "/equipo/al-nassr.html"
+    },
+    {
+      "id": "5",
+      "nombre": "Al Hilal",
+      "imagen": "/img/al-hilal.png",
+      "liga": "Liga Profesional",
+      "url": "/equipo/al-hilal.html"
+    },
+    {
+      "id": "6",
+      "nombre": "Alianza Lima",
+      "imagen": "/img/alianza-lima.png",
+      "liga": "Liga 1",
+      "url": "/equipo/alianza-lima.html"
+    },
+    {
+      "id": "7",
+      "nombre": "Universitario",
+      "imagen": "/img/u.png",
+      "liga": "Liga 1",
+      "url": "/equipo/universitario.html"
+    },
+    {
+      "id": "8",
+      "nombre": "PSG",
+      "imagen": "/img/psg.png",
+      "liga": "Ligue 1",
+      "url": "/equipo/psg.html"
+    },
+    {
+      "id": "9",
+      "nombre": "Sporting Cristal",
+      "imagen": "/img/sporting-cristal.png",
+      "liga": "Liga 1",
+      "url": "/equipo/sporting-cristal.html"
+    },
+    {
+      "id": "10",
+      "nombre": "Deportivo Garcilaso",
+      "imagen": "/img/deportivo-garcilaso.png",
+      "liga": "Liga 1",
+      "url": "/equipo/deportivo-garcilaso.html"
+    },
+    {
+      "id": "11",
+      "nombre": "Liverpool",
+      "imagen": "/img/liverpool.png",
+      "liga": "Premier League",
+      "url": "/equipo/liverpool.html"
+    },
+    {
+      "id": "12",
+      "nombre": "Bayer Munich",
+      "imagen": "/img/bayer-munich.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/bayer-munich.html"
+    },
+    {
+      "id": "13",
+      "nombre": "Manchester United",
+      "imagen": "/img/manchester-united.png",
+      "liga": "Premier League",
+      "url": "/equipo/manchester-united.html"
+    },
+    {
+      "id": "14",
+      "nombre": "Real Madrid",
+      "imagen": "/img/real-madrid.png",
+      "liga": "La Liga",
+      "url": "/equipo/real-madrid.html"
+    },
+    {
+      "id": "15",
+      "nombre": "Manchester City",
+      "imagen": "/img/manchester-city.png",
+      "liga": "Premier League",
+      "url": "/equipo/manchester-city.html"
+    },
+    {
+      "id": "16",
+      "nombre": "Napoli",
+      "imagen": "/img/napoli.png",
+      "liga": "Serie A",
+      "url": "/equipo/napoli.html"
+    },
+    {
+      "id": "17",
+      "nombre": "Chelsea",
+      "imagen": "/img/chelsea.png",
+      "liga": "Premier League",
+      "url": "/equipo/chelsea.html"
+    },
+    {
+      "id": "18",
+      "nombre": "Tottenham Hotspur",
+      "imagen": "/img/tottenham.png",
+      "liga": "Premier League",
+      "url": "/equipo/tottenham.html"
+    },
+    {
+      "id": "19",
+      "nombre": "Newcastle United",
+      "imagen": "/img/newcastle.png",
+      "liga": "Premier League",
+      "url": "/equipo/newcastle.html"
+    },
+    {
+      "id": "20",
+      "nombre": "Aston Villa",
+      "imagen": "/img/aston-villa.png",
+      "liga": "Premier League",
+      "url": "/equipo/aston-villa.html"
+    },
+    {
+      "id": "21",
+      "nombre": "Brighton & Hove Albion",
+      "imagen": "/img/brighton.png",
+      "liga": "Premier League",
+      "url": "/equipo/brighton.html"
+    },
+    {
+      "id": "22",
+      "nombre": "West Ham United",
+      "imagen": "/img/west-ham.png",
+      "liga": "Premier League",
+      "url": "/equipo/west-ham.html"
+    },
+    {
+      "id": "23",
+      "nombre": "Wolverhampton",
+      "imagen": "/img/wolves.png",
+      "liga": "Premier League",
+      "url": "/equipo/wolves.html"
+    },
+    {
+      "id": "24",
+      "nombre": "Brentford",
+      "imagen": "/img/brentford.png",
+      "liga": "Premier League",
+      "url": "/equipo/brentford.html"
+    },
+    {
+      "id": "25",
+      "nombre": "Crystal Palace",
+      "imagen": "/img/crystal-palace.png",
+      "liga": "Premier League",
+      "url": "/equipo/crystal-palace.html"
+    },
+    {
+      "id": "26",
+      "nombre": "Fulham",
+      "imagen": "/img/fulham.png",
+      "liga": "Premier League",
+      "url": "/equipo/fulham.html"
+    },
+    {
+      "id": "27",
+      "nombre": "Everton",
+      "imagen": "/img/everton.png",
+      "liga": "Premier League",
+      "url": "/equipo/everton.html"
+    },
+    {
+      "id": "28",
+      "nombre": "Nottingham Forest",
+      "imagen": "/img/nottingham-forest.png",
+      "liga": "Premier League",
+      "url": "/equipo/nottingham-forest.html"
+    },
+    {
+      "id": "29",
+      "nombre": "Bournemouth",
+      "imagen": "/img/bournemouth.png",
+      "liga": "Premier League",
+      "url": "/equipo/bournemouth.html"
+    },
+    {
+      "id": "30",
+      "nombre": "Burnley",
+      "imagen": "/img/burnley.png",
+      "liga": "Premier League",
+      "url": "/equipo/burnley.html"
+    },
+    {
+      "id": "31",
+      "nombre": "Luton Town",
+      "imagen": "/img/luton-town.png",
+      "liga": "Premier League",
+      "url": "/equipo/luton-town.html"
+    },
+    {
+      "id": "32",
+      "nombre": "Sheffield United",
+      "imagen": "/img/sheffield-united.png",
+      "liga": "Premier League",
+      "url": "/equipo/sheffield-united.html"
+    },
+    {
+      "id": "33",
+      "nombre": "Real Betis",
+      "imagen": "/img/real-betis.png",
+      "liga": "La Liga",
+      "url": "/equipo/real-betis.html"
+    },
+    {
+      "id": "34",
+      "nombre": "Athletic Madrid",
+      "imagen": "/img/athletic-madrid.png",
+      "liga": "La Liga",
+      "url": "/equipo/athletic-madrid.html"
+    },
+    {
+      "id": "35",
+      "nombre": "Sevilla FC",
+      "imagen": "/img/sevilla.png",
+      "liga": "La Liga",
+      "url": "/equipo/sevilla.html"
+    },
+    {
+      "id": "36",
+      "nombre": "Valencia CF",
+      "imagen": "/img/valencia.png",
+      "liga": "La Liga",
+      "url": "/equipo/valencia.html"
+    },
+    {
+      "id": "37",
+      "nombre": "Real Sociedad",
+      "imagen": "/img/real-sociedad.png",
+      "liga": "La Liga",
+      "url": "/equipo/real-sociedad.html"
+    },
+    {
+      "id": "38",
+      "nombre": "Athletic Bilbao",
+      "imagen": "/img/athletic-bilbao.png",
+      "liga": "La Liga",
+      "url": "/equipo/athletic-bilbao.html"
+    },
+    {
+      "id": "39",
+      "nombre": "Celta de Vigo",
+      "imagen": "/img/celta-de-vigo.png",
+      "liga": "La Liga",
+      "url": "/equipo/celta-de-vigo.html"
+    },
+    {
+      "id": "40",
+      "nombre": "Rayo Vallecano",
+      "imagen": "/img/rayo-vallecano.png",
+      "liga": "La Liga",
+      "url": "/equipo/rayo-vallecano.html"
+    },
+    {
+      "id": "41",
+      "nombre": "Getafe CF",
+      "imagen": "/img/getafe.png",
+      "liga": "La Liga",
+      "url": "/equipo/getafe.html"
+    },
+    {
+      "id": "42",
+      "nombre": "Girona FC",
+      "imagen": "/img/girona.png",
+      "liga": "La Liga",
+      "url": "/equipo/girona.html"
+    },
+    {
+      "id": "43",
+      "nombre": "Espanyol",
+      "imagen": "/img/espanyol.png",
+      "liga": "La Liga",
+      "url": "/equipo/espanyol.html"
+    },
+    {
+      "id": "44",
+      "nombre": "Alaves",
+      "imagen": "/img/alaves.png",
+      "liga": "La Liga",
+      "url": "/equipo/alaves.html"
+    },
+    {
+      "id": "45",
+      "nombre": "Cadiz CF",
+      "imagen": "/img/cadiz.png",
+      "liga": "La Liga",
+      "url": "/equipo/cadiz.html"
+    },
+    {
+      "id": "46",
+      "nombre": "Mallorca",
+      "imagen": "/img/mallorca.png",
+      "liga": "La Liga",
+      "url": "/equipo/mallorca.html"
+    },
+    {
+      "id": "47",
+      "nombre": "Villarreal CF",
+      "imagen": "/img/villarreal.png",
+      "liga": "La Liga",
+      "url": "/equipo/villarreal.html"
+    },
+    {
+      "id": "48",
+      "nombre": "Fiorentina",
+      "imagen": "/img/fiorentina.png",
+      "liga": "Serie A",
+      "url": "/equipo/fiorentina.html"
+    },
+    {
+      "id": "49",
+      "nombre": "Torino",
+      "imagen": "/img/torino.png",
+      "liga": "Serie A",
+      "url": "/equipo/torino.html"
+    },
+    {
+      "id": "50",
+      "nombre": "Cagliari",
+      "imagen": "/img/cagliari.png",
+      "liga": "Serie A",
+      "url": "/equipo/cagliari.html"
+    },
+    {
+      "id": "51",
+      "nombre": "Sassuolo",
+      "imagen": "/img/sassuolo.png",
+      "liga": "Serie A",
+      "url": "/equipo/sassuolo.html"
+    },
+    {
+      "id": "52",
+      "nombre": "Bologna",
+      "imagen": "/img/bologna.png",
+      "liga": "Serie A",
+      "url": "/equipo/bologna.html"
+    },
+    {
+      "id": "53",
+      "nombre": "Lazio",
+      "imagen": "/img/lazio.png",
+      "liga": "Serie A",
+      "url": "/equipo/lazio.html"
+    },
+    {
+      "id": "54",
+      "nombre": "Roma",
+      "imagen": "/img/as-roma.png",
+      "liga": "Serie A",
+      "url": "/equipo/as-roma.html"
+    },
+    {
+      "id": "55",
+      "nombre": "Atalanta",
+      "imagen": "/img/atalanta.png",
+      "liga": "Serie A",
+      "url": "/equipo/atalanta.html"
+    },
+    {
+      "id": "56",
+      "nombre": "AC Milan",
+      "imagen": "/img/ac-milan.png",
+      "liga": "Serie A",
+      "url": "/equipo/ac-milan.html"
+    },
+    {
+      "id": "57",
+      "nombre": "Juventus",
+      "imagen": "/img/juventus.png",
+      "liga": "Serie A",
+      "url": "/equipo/juventus.html"
+    },
+    {
+      "id": "58",
+      "nombre": "Brescia",
+      "imagen": "/img/brescia.png",
+      "liga": "Serie A",
+      "url": "/equipo/brescia.html"
+    },
+    {
+      "id": "59",
+      "nombre": "Chankas",
+      "imagen": "/img/chankas.png",
+      "liga": "Liga 1",
+      "url": "/equipo/chankas.html"
+    },
+    {
+      "id": "60",
+      "nombre": "Cusco FC",
+      "imagen": "/img/cusco.png",
+      "liga": "Liga 1",
+      "url": "/equipo/cusco.html"
+    },
+    {
+      "id": "61",
+      "nombre": "Cienciano",
+      "imagen": "/img/cienciano.png",
+      "liga": "Liga 1",
+      "url": "/equipo/cienciano.html"
+    },
+    {
+      "id": "62",
+      "nombre": "Comerciantes Unidos",
+      "imagen": "/img/comerciantes-unidos.png",
+      "liga": "Liga 1",
+      "url": "/equipo/comerciantes-unidos.html"
+    },
+    {
+      "id": "63",
+      "nombre": "Sport Huancayo",
+      "imagen": "/img/sport-huancayo.png",
+      "liga": "Liga 1",
+      "url": "/equipo/sport-huancayo.html"
+    },
+    {
+      "id": "64",
+      "nombre": "UTC Cajamarca",
+      "imagen": "/img/utc.png",
+      "liga": "Liga 1",
+      "url": "/equipo/utc.html"
+    },
+    {
+      "id": "65",
+      "nombre": "Melgar",
+      "imagen": "/img/melgar.webp",
+      "liga": "Liga 1",
+      "url": "/equipo/melgar.html"
+    },
+    {
+      "id": "66",
+      "nombre": "Sport Boys",
+      "imagen": "/img/sport-boys.png",
+      "liga": "Liga 1",
+      "url": "/equipo/sport-boys.html"
+    },
+    {
+      "id": "67",
+      "nombre": "bremen",
+      "imagen": "/img/bremen.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/bremen.html"
+    },
+    {
+      "id": "68",
+      "nombre": "Wolfsburg",
+      "imagen": "/img/wolfsburg.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/wolfsburg.html"
+    },
+    {
+      "id": "69",
+      "nombre": "Augsburg",
+      "imagen": "/img/augsburg.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/augsburg.html"
+    },
+    {
+      "id": "70",
+      "nombre": "Borussia Dortmund",
+      "imagen": "/img/dortmund.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/dortmund.html"
+    },
+    {
+      "id": "71",
+      "nombre": "Stuttgart",
+      "imagen": "/img/stuttgart.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/stuttgart.html"
+    },
+    {
+      "id": "72",
+      "nombre": "Eintracht Frankfurt",
+      "imagen": "/img/frankfurt.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/frankfurt.html"
+    },
+    {
+      "id": "73",
+      "nombre": "Hoffenheim",
+      "imagen": "/img/hoffenheim.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/hoffenheim.html"
+    },
+    {
+      "id": "74",
+      "nombre": "Mainz 05",
+      "imagen": "/img/mainz.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/mainz.html"
+    },
+    {
+      "id": "75",
+      "nombre": "RB Leipzig",
+      "imagen": "/img/leipzig.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/leipzig.html"
+    },
+    {
+      "id": "76",
+      "nombre": "St Pauli",
+      "imagen": "/img/st-pauli.png",
+      "liga": "Bundesliga",
+      "url": "/equipo/st-pauli.html"
+    }
+  ],
+  "ligas": [
+    {
+      "nombre": "UEFA Champions League",
+      "imagen": "/img/champions-league.png",
+      "url": "/liga/uefa-champions-league",
+      "desc": "La UEFA Champions League es el torneo de clubes más prestigioso de Europa.",
+      "inicio": "2024-09-17",
+      "fin": "2025-06-10",
+      "id": "ebe3"
+    },
+    {
+      "nombre": "Premier League",
+      "imagen": "/img/premier-league.png",
+      "url": "/liga/premier-league",
+      "desc": "La Premier League es la liga profesional de fútbol de Inglaterra, conocida por su competitividad y calidad.",
+      "inicio": "2024-08-11",
+      "fin": "2025-05-25",
+      "id": "6a57"
+    },
+    {
+      "nombre": "Liga 1",
+      "imagen": "/img/liga1.png",
+      "url": "/liga/liga-1",
+      "desc": "La Liga 1 es la máxima categoría del fútbol profesional en Perú.",
+      "inicio": "2024-02-01",
+      "fin": "2024-12-15",
+      "id": "95aa"
+    },
+    {
+      "nombre": "Serie A",
+      "imagen": "/img/serieA.png",
+      "url": "/liga/serie-a",
+      "desc": "La Serie A es la principal liga de fútbol de Italia.",
+      "inicio": "2024-08-20",
+      "fin": "2025-05-30",
+      "id": "9b53"
+    },
+    {
+      "nombre": "La Eurocopa",
+      "imagen": "/img/eurocopa.png",
+      "url": "/liga/la-eurocopa",
+      "desc": "La Eurocopa es el torneo de selecciones nacionales de fútbol de Europa.",
+      "inicio": "2024-06-14",
+      "fin": "2024-07-14",
+      "id": "0865"
+    },
+    {
+      "nombre": "Bundesliga",
+      "imagen": "/img/bundesliga.png",
+      "url": "/liga/bundesliga",
+      "desc": "La Bundesliga es la liga de fútbol profesional de Alemania.",
+      "inicio": "2024-08-16",
+      "fin": "2025-05-17",
+      "id": "465e"
+    },
+    {
+      "nombre": "La Liga",
+      "imagen": "/img/laliga.png",
+      "url": "/liga/la-liga",
+      "desc": "La Liga es la principal competición de fútbol de España.",
+      "inicio": "2024-08-12",
+      "fin": "2025-05-25",
+      "id": "c38f"
+    },
+    {
+      "nombre": "CONMEBOL Libertadores",
+      "imagen": "/img/conmebolLibertadores.png",
+      "url": "/liga/conmebol-libertadores",
+      "desc": "La Copa Libertadores es el torneo de clubes más prestigioso de América del Sur.",
+      "inicio": "2024-01-24",
+      "fin": "2024-11-23",
+      "id": "0364"
+    },
+    {
+      "nombre": "CONCACAF Champions League",
+      "imagen": "/img/concacafChampions.png",
+      "url": "/liga/concacaf-champions-league",
+      "desc": "La Liga de Campeones de la CONCACAF es el torneo de clubes más importante de América del Norte, Central y el Caribe.",
+      "inicio": "2024-02-14",
+      "fin": "2024-05-01",
+      "id": "03ef"
+    },
+    {
+      "nombre": "MLS",
+      "imagen": "/img/mls.png",
+      "url": "/liga/mls",
+      "desc": "La Major League Soccer (MLS) es la liga profesional de fútbol de Estados Unidos y Canadá.",
+      "inicio": "2024-02-29",
+      "fin": "2024-10-06",
+      "id": "60e8"
+    },
+    {
+      "nombre": "Liga Profesional",
+      "imagen": "/img/ligaProfesional.png",
+      "url": "/liga/liga-profesional",
+      "desc": "La Liga Profesional es una mrd.",
+      "inicio": "2024-02-10",
+      "fin": "2024-12-15",
+      "id": "1872"
+    }
+  ]
+}
